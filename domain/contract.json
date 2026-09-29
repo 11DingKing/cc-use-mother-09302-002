@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "校园活动监护同意",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "学校老师",
+    "学生监护人",
+    "活动组织者"
+  ],
+  "states": [
+    "发起",
+    "签署",
+    "生效",
+    "撤回",
+    "归档"
+  ],
+  "invariants": [
+    "监护关系",
+    "范围化同意",
+    "权限隔离",
+    "历史快照"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-002-A",
+      "actor": "学校老师",
+      "state": "发起"
+    },
+    {
+      "case_id": "09302-002-B",
+      "actor": "活动组织者",
+      "state": "签署"
+    }
+  ],
+  "tags": [
+    "guardian-consent",
+    "scope-authorization"
+  ]
+}
